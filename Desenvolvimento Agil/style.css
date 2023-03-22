@@ -1,0 +1,158 @@
+/* Define o estilo do container do header */
+.header {
+    background-color: #003399;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 10%;
+  }
+  /* Define o estilo do logo */
+  /* Define o estilo do menu */
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  /* Define o estilo dos links do menu */
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  h1 {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #006699;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #F2F2F2;
+    padding: 10px;
+    text-align: center;
+  }
+
+/*main*/
+
+#mainpg {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+.h2main {
+    color: #0B3B5B;
+    font-size: 30px;
+    
+  }
+
+.ulmain {
+
+        list-style: none;
+        margin: 0;
+        padding: 0;
+}
+
+#contato{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer {
+    background-color: #003399;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Define o estilo dos links do footer */
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  /* Define o estilo do logo do footer */
+  .footer img {
+    height: 50px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+
+
+
+  form {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: #006699;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
